@@ -1,0 +1,23 @@
+{
+  "name": "lambdatest_cypress_automation_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "axe-core": "^4.7.2",
+    "cypress": "^12.17.1",
+    "cypress-audit": "^1.1.0",
+    "cypress-axe": "^1.4.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@cypress-audit/lighthouse": "^1.4.2"
+  }
+}

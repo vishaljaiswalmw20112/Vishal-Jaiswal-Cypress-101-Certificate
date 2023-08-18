@@ -1,0 +1,44 @@
+{
+   "lambdatest_auth": {
+      "username": "vishal.jaiswalmw2consulting",
+      "access_key": "TWpHitSovon4joME3nl65ATlY3N8qO4PoT1a2LjsS8cXNzii1V"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "firefox",
+         "platform": "macOS Ventura",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "build-name",
+      "parallels": 2,
+      "specs": "./cypress/e2e/*.spec.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "@testing-library/cypress": "^9.0.0",
+         "axe-core": "^4.7.2",
+         "cypress": "^12.17.1",
+         "cypress-audit": "^1.1.0",
+         "cypress-axe": "^1.4.0",
+         "cypress-xpath": "^2.0.1",
+         "@cypress-audit/lighthouse": "^1.4.2"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}

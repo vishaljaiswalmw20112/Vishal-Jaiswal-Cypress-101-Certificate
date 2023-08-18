@@ -1,0 +1,14 @@
+{
+    "name":"Vishal",
+    "email":"lambdatest@yopmail.com",
+    "password":"Password@1",
+    "company":"mw2",
+    "website": "https://www.mw2consulting.com/",
+    "Country":"India",
+    "city":"Mumbai",
+    "address1": "Andheri",
+    "address2": "DN nagar",
+    "state":"Maharashtra",
+    "zipcode":"400053",
+    "successMsg": "Thanks for contacting us, we will get back to you shortly."
+}

@@ -1,0 +1,29 @@
+{
+  "slidersLocators":{
+  "slider3": "#slider3",  
+  "dragAndDropLink": ":nth-child(13) > .text-black",
+  "dragAndDropLinkXpath": "//a[normalize-space()='Drag & Drop Sliders']",
+  "defaultValue15Slider": ".sp__range-success > .sp__range",
+  "defaultValue15SliderNew": "#slider3 > div.sp__range > .sp__range",
+  "defaultValue15SliderXpath":"//div[@id='slider3']//input[@class='sp__range']",
+  "rangeOutput":"#rangeSuccess",
+  "defaultValue25Slider": "#slider5 > .sp__range-warning > .sp__range"
+  },
+  "inputFormLocators": {
+  "inputFormSubmitLinkXpath": "//a[normalize-space()='Input Form Submit']",
+  "nameTextBox":"#name",
+  "emailTextBox":"#inputEmail4",
+  "passwordTextBox": "#inputPassword4",
+  "companyTextBox":"#company",
+  "websiteTextBox":"#websitename",
+  "countryDropDown":":nth-child(3) > .pr-20 > .w-full",
+  "countryDropDownXpath":"//select[@name='country']",
+  "cityTextBox":"#inputCity",
+  "address1TextBox":"#inputAddress1",
+  "address2TextBox":"#inputAddress2",
+  "stateTextBox":"#inputState",
+  "zipTextBox":"#inputZip",
+  "formSubmitButtonXpath":"//button[normalize-space()='Submit']",
+  "successMessage": ".success-msg"
+  } 
+}
